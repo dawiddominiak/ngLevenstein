@@ -37,8 +37,8 @@
 			</fieldset>
 		</form>
 		<ul>
-			<li ng-repeat="word in list">
-				{{word}} | {{word | levenstein:search}}
+			<li ng-repeat="word in list | orderByLevenstein:search">
+				{{word}} | {{word | levensteinDistance:search}}
 			</li>
 		</ul>
 	</body>
