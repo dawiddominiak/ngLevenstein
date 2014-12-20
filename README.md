@@ -4,7 +4,8 @@ ngLevenstein
 ngLevenstein is a set of filters for [Angular.js](http://angularjs.org) applications.
 
 ngLevenstein can sort an array of strings by best matches.
-
+#Demo
+[Demo](http://htmlpreview.github.io/?https://rawgit.com/dawiddominiak/ngLevenstein/master/example/index.html)
 #Install
 You can download all files manually or install it with bower:
 ```
